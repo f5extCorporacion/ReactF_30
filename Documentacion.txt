@@ -1,0 +1,33 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+
+function App() {
+  /*
+  ! variable estadofoco | 
+
+  todo: setValor() function que asigna valor a 
+  todo: variable estadofoco */
+  const [estadofoco, setValor] = useState(false);
+  const [fondo ,setCambioFondo] = useState(false);
+  /*
+  Todo:Arroy funtion handle */
+  const handle =()=>{
+    setValor(!estadofoco)//cambia valor a  true
+    console.log(estadofoco)
+  };
+
+Ella si te quiere Pero como su mejor amigo/a  
+ return (
+        <div className='app'>
+          
+        <div className={`Bombillo ${estadofoco ? "onC":""}`} > </div>
+        <button onClick={handle}>{estadofoco ? "on":"off"}</button>
+        </div>
+      
+    
+  )
+}
+
+export default App

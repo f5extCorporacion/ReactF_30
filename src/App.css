@@ -1,0 +1,94 @@
+:root{
+  font-family: 'Lexend Deca', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
+body{
+  margin: 0;
+  padding: 0;
+  min-width: 300px;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);  width: 100%;
+  height: 100hv;
+}
+#root{
+  margin: 0;
+padding: 0;
+}
+.ap{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ flex-direction: column;
+ flex-wrap: wrap;
+ padding: 1rem;
+ top: -10px;
+ gap: 1rem;
+
+}
+.lemale img{
+  width: 200px;
+  height: 200px;
+  top: -10px;
+}
+.app .frase {
+  width: 90%;
+  background: #fff;
+  height: 250px;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+.app .frase .item{
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.app button{
+  background: #e1ac01;
+  padding: 1rem;
+  border-radius: 20px;
+  font-size: 15px;
+  color: #fff;
+  box-shadow: 10px 10px 10px #1c1c1c;
+}
+.app button:hover{
+  background: #57ec01;
+  padding: 1rem;
+  border-radius: 20px;
+  font-size: 15px;
+  color: #fff;
+  box-shadow: 10px 10px 10px #1c1c1c;
+}
+@media (min-width: 600px) {
+  body{
+    background: rgb(246,9,113);
+    background: radial-gradient(circle, rgba(246,9,113,1) 0%, rgba(2,16,33,1) 100%); height: 100hv;
+  }
+  .ap{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    padding: 1rem;
+    top: -10px;
+    gap: 1rem;
+    transform: translateX(-10px);
+   }
+   .app{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+  /* … */
+}
