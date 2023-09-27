@@ -1,9 +1,11 @@
-import { useState } from 'react'
+import { useState } from 'react';
 import quotes from'./db/quotes.json';
-import './App.css'
-import { Ramdon } from './utils/randon';
-import Frase from './components/Frase';
+import './App.css';
 
+import { Ramdon } from './utils/randon';
+
+import Frase from './components/Frase';
+/*Nuevos elementos*/
 function App() {
   /*
   Todo:creamos el estado de las frases */
