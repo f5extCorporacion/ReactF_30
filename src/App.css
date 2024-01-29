@@ -12,7 +12,7 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 body{
   display:flex;
-  background: url('https://i.gifer.com/U3xO.gif');
+  background-image: url('https://i.gifer.com/U3xO.gif');
     margin: 0;
   padding: 0;
   background-size: cover;
