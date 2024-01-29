@@ -16,7 +16,7 @@ const Frase = ({quote, setFranse}) => {
   return (
     <div className='ap'>
          <div className="lemale">
-               <img src={lemale} alt="" />
+               
           </div>
           
           <div className="frase">
@@ -27,8 +27,7 @@ const Frase = ({quote, setFranse}) => {
               </div>
           </div>
           <button onClick={handlera}> <h3>Siguiente</h3> </button>
-          <h1>Estudiante Academlo</h1>
-          <h4>Franklim de jesus muñoz valverde</h4>
+         
     </div>
   )
 }
