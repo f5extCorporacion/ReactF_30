@@ -5,11 +5,16 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
 
 }
+#root{
+  padding: 0;
+  margin: 0;
 
+}
 *{
   padding: 0;
   margin: 0;
 }
+
 body{
   padding: 3% 0 3% 0; 
   background-image: url('https://i.gifer.com/U3xO.gif');
