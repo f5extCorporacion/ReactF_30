@@ -11,7 +11,12 @@ font-family: 'Roboto Condensed', sans-serif;
   margin: 0;
 }
 body{
-  display:flex;
+    height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
   background-image: url('https://i.gifer.com/U3xO.gif');
     margin: 0;
   padding: 0;
