@@ -16,10 +16,9 @@ body{
   margin: 0;
 }
 body{
-
   background: url('https://i.gifer.com/U3xO.gif');
-    width: 100%;
-    height: 100%;
+    margin: 0;
+  padding: 0;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -75,14 +74,12 @@ padding: 0;
 /*Cuando sea menor a 600px*/
 @media (min-width: 600px) {
   body{
-
+ margin: 0;
+  padding: 0;
     background: url('https://i.gifer.com/U3xO.gif');
  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;    width: 100%;
-    height: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
   }
   .ap{
     display: flex;
