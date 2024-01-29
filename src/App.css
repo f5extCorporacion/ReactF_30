@@ -16,12 +16,13 @@ body{
   margin: 0;
 }
 body{
-  background: rgb(34,193,195);
+
   background: url('https://i.gifer.com/U3xO.gif');
     width: 100%;
     height: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 #root{
   margin: 0;
@@ -74,9 +75,11 @@ padding: 0;
 /*Cuando sea menor a 600px*/
 @media (min-width: 600px) {
   body{
-    background: rgb(246,9,113);
+
     background: url('https://i.gifer.com/U3xO.gif');
-    width: 100%;
+ background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;    width: 100%;
     height: 100%;
     background-position: center center;
     background-repeat: no-repeat;
